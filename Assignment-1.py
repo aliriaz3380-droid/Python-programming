@@ -1,0 +1,1 @@
+print(("Ali Riaz" + "\n") * 10)
