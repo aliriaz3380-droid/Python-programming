@@ -1,0 +1,7 @@
+Bill=int(input("Enter the Total bill amount:"))
+Friends=int(input("Enter the number of friends:"))
+ForEach=int(Bill/Friends)
+print("The amount each friend will be pay is:",ForEach)
+print("Data Type of bill amount:",type(Bill))
+print("Data Type of number of friends:", type(Friends))
+print("Data Type the amount each friend will be pay is:", type(ForEach))
