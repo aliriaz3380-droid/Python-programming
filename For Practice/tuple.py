@@ -1,0 +1,8 @@
+tup=()
+food1=input("Enter the value at index 0:")
+food2=input("Enter the value at index 1:")
+food3=input("Enter the value at index 2:")
+food4=input("Enter the value at index 3:")
+tup=(food1,food2,food3,food4)
+print(tup)
+print(tup.count(food1))

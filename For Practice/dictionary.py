@@ -1,0 +1,10 @@
+dic={}
+print(type(dic))
+dic["food1"]=input("Enter the value of food1:")
+dic["food2"]=input("Enter the value of food2:")
+dic["food3"]=input("Enter the value of food3:")
+dic["food4"]=input("Enter the value of food4:")
+dic.update({"food5":"orange","food6":"pineapple"})
+print(dic)
+print(dic.get("food1"))
+print(dic.items())
