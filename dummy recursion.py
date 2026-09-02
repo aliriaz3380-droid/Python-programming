@@ -74,3 +74,13 @@ def febo(n):
 for i in range(1,n+1):
     result=febo(i)
     print(result)
+
+
+ # sum of n numbers
+n=int(input("Enter the number to find the sum:"))
+def sum(n):
+    if n==0:
+       return 0
+    return n+sum(n-1)
+result=sum(n)
+print(result)   
