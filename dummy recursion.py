@@ -71,5 +71,6 @@ def febo(n):
     if n==2:
         return 1
     return febo(n-2)+febo(n-1)
-result=febo(n)
-print(result)
+for i in range(1,n+1):
+    result=febo(i)
+    print(result)
